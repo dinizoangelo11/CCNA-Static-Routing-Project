@@ -15,7 +15,7 @@ This project demonstrates configuring static routes between three Cisco routers 
 
 ## Network Topology
 
-<img width="977" height="391" alt="Project1- Network Topology" src="https://github.com/user-attachments/assets/8c48ac56-b053-4184-a53d-8e4d781b6f73" />
+<img width="933" height="321" alt="Project1 - Network Topology" src="https://github.com/user-attachments/assets/1cbecc8b-a24e-44b5-9ec4-85ff4a196e1d" />
 
 
 ## IP Addressing
@@ -28,13 +28,17 @@ This project demonstrates configuring static routes between three Cisco routers 
 | Router2 | Fa0/0 | 10.1.0.2 |
 | Router3 | Fa0/0 | 10.1.0.1 |
 | Router3 | Fa0/1 | 10.1.1.2 |
+| PC1     | Fa0   | 10.0.1.3 |
+| PC3     | Fa0   | 10.1.1.3 |
 
 ## Configuration
 
 Configured IP addressing and enabled interfaces using commands such as:
-- interface FastEthernet
-- ip address
-- no shutdown
+- 'interface FastEthernet'
+- 'ip address'
+- 'duplex auto'
+- 'speed auto'
+- 'no shutdown'
 
 Configured static routes on each router to reach remote networks.
 
