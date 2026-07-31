@@ -1,6 +1,6 @@
 # CCNA-Static-Routing-Project
 
-# Cisco Packet Tracer - Static Routing Lab
+# Cisco Packet Tracer - Static Routing Project
 
 ## Overview
 This project demonstrates configuring static routes between three Cisco routers to allow communication between different networks.
