@@ -15,7 +15,7 @@ This project demonstrates configuring static routes between three Cisco routers 
 
 ## Network Topology
 
-<img width="977" height="391" alt="Project1- Network Topology" src="https://github.com/user-attachments/assets/b87fab48-a7b5-4bc0-ad00-c4260997b9e0" />
+<img width="977" height="391" alt="Project1- Network Topology" src="https://github.com/user-attachments/assets/8c48ac56-b053-4184-a53d-8e4d781b6f73" />
 
 
 ## IP Addressing
