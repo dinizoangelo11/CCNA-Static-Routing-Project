@@ -1,0 +1,44 @@
+## Router 1 Configuration
+
+*Naming the Router*
+enable
+config t
+hostname Router1
+
+*Adding IP Address for each Interface*
+config t
+int f0/0
+ip address 10.0.1.2 255.255.255.0
+duplex auto
+speed auto
+no shut
+
+exit
+
+int f0/1
+ip address 10.0.0.1 255.255.255.0
+duplex auto
+speed auto
+no shut
+
+*Checking information for ports on the router*
+show ip interface brief
+
+
+
+## Router 2 Configuration
+
+*Naming the Router*
+enable
+config t
+hostname Router2
+
+
+## Router 3 Configuration
+
+*Naming the Router*
+enable
+config t
+hostname Router3
+
+
