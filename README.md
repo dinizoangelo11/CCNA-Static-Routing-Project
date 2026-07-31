@@ -56,3 +56,9 @@ Configured static routes on each router to reach remote networks.
 - Static routing
 - IP addressing
 - Network troubleshooting
+
+## Files Included
+
+- **Packet Tracer/Static Routing Project.pkt** - Cisco Packet Tracer lab file
+- **Configs/** - Router running configurations
+- **Images/** - Screenshots of the topology and verification tests
